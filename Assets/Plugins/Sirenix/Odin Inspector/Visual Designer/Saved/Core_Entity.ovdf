@@ -1,0 +1,18 @@
+OVDF v1.1
+Core.Entity, Assembly-CSharp
+MetaGuid:dbc4bc7de84f02b4dabd7b65742f4f24
+
+# $A8bT1nwBsQfencK8FXS1Y
+Position: $root:27
++ [Sirenix.OdinInspector.TabGroupAttribute]
+
+# $S66jpgsEpywrTLrcsuyTrC
+Position: $A8bT1nwBsQfencK8FXS1Y:0
++ [Sirenix.OdinInspector.TabGroupAttribute+TabSubGroupAttribute]
+	GroupName = "Base"
+
+# <Id>k__BackingField
+Position: $S66jpgsEpywrTLrcsuyTrC:0
+
+# <RunningCommands>k__BackingField
+Position: $S66jpgsEpywrTLrcsuyTrC:1

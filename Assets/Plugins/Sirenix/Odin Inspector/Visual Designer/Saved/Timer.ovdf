@@ -1,0 +1,44 @@
+OVDF v1.1
+Timer, Assembly-CSharp
+MetaGuid:ecc84008605f42a489b494fb4850fdaf
+
+# curTime
++ [Sirenix.OdinInspector.InlineButtonAttribute]
+	Action = "SetCurTimeToNow"
+	Label = "设为当前"
+	Icon = ClockHistory
+
+# <ClockTimeChanged>k__BackingField
+Visibility: Hidden
+
+# CurMinute
+Visibility: Shown
+
+# CurSecond
+Visibility: Shown
+
+# NowTime
+Position: $root:6
+Visibility: Shown
++ [Sirenix.OdinInspector.DisplayAsStringAttribute]
+	Alignment = Center
+
+# CurHour
+Visibility: Shown
+
+# <CurTime>k__BackingField
++ [Sirenix.OdinInspector.InlineButtonAttribute]
+	Action = "UpdateCurTimeToNow"
+	Label = "设为当前"
+	Icon = Clock
+
+# SetCurTimeToNow(TimeType)
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+	Name = "更新时间"
+	drawResult = True
+	drawResultIsSet = True
+	Style = FoldoutButton
+
+# <TimeFormat>k__BackingField
+Visibility: Hidden

@@ -1,0 +1,61 @@
+OVDF v1.1
+ObjectFeatures.CommonFeatures.RequestEnter, Assembly-CSharp
+MetaGuid:7b60db38fd0ae7b4da1bc58a77edf8ff
+
+# $ErDCJEr7zt23X42qYjXRd8
+Position: $6whPo8kH97uVNTaXb72XpY:0
++ [Sirenix.OdinInspector.ColumnGroupAttribute]
+
+# $9pWJJCCRiYQvbRaSaHU1hN
+Position: $ErDCJEr7zt23X42qYjXRd8:1
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+
+# $TmREF7SdKrcFtTuV7RnKXg
+Position: $ErDCJEr7zt23X42qYjXRd8:2
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+
+# $6whPo8kH97uVNTaXb72XpY
+Position: $root:41
++ [Sirenix.OdinInspector.BoxGroupAttribute]
+
+# EnterRequest(string, Object, RequestType)
+Position: $9pWJJCCRiYQvbRaSaHU1hN:0
+* [Sirenix.OdinInspector.ButtonAttribute]
+	Style = Box
+	Icon = BoxArrowInDownLeft
+	buttonIconAlignment = LeftEdge
+	HasDefinedButtonIconAlignment = True
+	stretch = True
+	HasDefinedStretch = True
+	Expanded = True
+	buttonHeight = 25
+	HasDefinedButtonHeight = True
+	DirtyOnClick = True
+	drawResult = True
+	drawResultIsSet = True
+
+# CancelRequest(string)
+Position: $TmREF7SdKrcFtTuV7RnKXg:0
+* [Sirenix.OdinInspector.ButtonAttribute]
+	Style = Box
+	buttonHeight = 25
+	HasDefinedButtonHeight = True
+	stretch = True
+	HasDefinedStretch = True
+	buttonIconAlignment = LeftEdge
+	HasDefinedButtonIconAlignment = True
+	Icon = BoxArrowDownLeft
+	Expanded = True
+
+# LinkUnit(string, string)
+Position: $6whPo8kH97uVNTaXb72XpY:1
+* [Sirenix.OdinInspector.ButtonAttribute]
+	Style = Box
+	buttonHeight = 25
+	HasDefinedButtonHeight = True
+	Expanded = True
+	buttonIconAlignment = LeftOfText
+	HasDefinedButtonIconAlignment = True
+	stretch = True
+	HasDefinedStretch = True
+	Icon = Link

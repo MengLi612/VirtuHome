@@ -1,0 +1,22 @@
+OVDF v1.1
+InfraredRanging, Assembly-CSharp
+MetaGuid:e4c8960be8ba0c140b075ce4d73ce506
+
+# <Config>k__BackingField
++ [Sirenix.OdinInspector.InlineEditorAttribute]
+	ObjectFieldMode = Foldout
+
+# CurrentState
++ [Sirenix.OdinInspector.EnumToggleButtonsAttribute]
+
+# RayLength
+Visibility: Shown
++ [Sirenix.OdinInspector.UnitAttribute]
+	Base = Meter
+	Display = Meter
+
+# IsHit
+Visibility: Shown
+
+# Distance
+Visibility: Shown

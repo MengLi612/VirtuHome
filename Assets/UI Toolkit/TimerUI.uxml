@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Unity.AppUI.UI.Panel data-source-type="UIModel.ClockUIModel, Assembly-CSharp" lang="zh">
+        <Unity.AppUI.UI.Text text="00:00" size="XXS" style="-unity-text-generator: standard; -unity-text-auto-size: none; font-size: 4px; -unity-font-style: bold;">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="TimeString" binding-mode="ToTarget"/>
+            </Bindings>
+        </Unity.AppUI.UI.Text>
+    </Unity.AppUI.UI.Panel>
+</ui:UXML>

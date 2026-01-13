@@ -1,0 +1,34 @@
+OVDF v1.1
+ClockSource, Assembly-CSharp
+MetaGuid:eb40eb4d9ca46f443ad78898836844a6
+
+# $DVaKrzmPcabqc18USfNGMz
+Position: $3oahy8Sh2YDu5C4S4iHFRH:0
+- [Sirenix.OdinInspector.TabGroupAttribute+TabSubGroupAttribute]
+
+# $BuzNK9bPYSF93UqJAVs6tn
+Position: $Gr4NDWdJ3oYQvizr1EsWW2:2
++ [Sirenix.OdinInspector.TabGroupAttribute+TabSubGroupAttribute]
+	GroupName = "Clock Source"
+	Icon = ClockHistory
+
+# LinkBehavior
+Position: $BuzNK9bPYSF93UqJAVs6tn:3
+
+# Timer
+Position: $BuzNK9bPYSF93UqJAVs6tn:1
+Visibility: Shown
+
+# ReceiveMsgPart
+Position: $BuzNK9bPYSF93UqJAVs6tn:5
+Visibility: Shown
+
+# SendMsgPart
+Position: $BuzNK9bPYSF93UqJAVs6tn:4
+Visibility: Shown
+
+# <Records>k__BackingField
+Position: $BuzNK9bPYSF93UqJAVs6tn:2
+
+# mcuId
+Position: $BuzNK9bPYSF93UqJAVs6tn:0

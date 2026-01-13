@@ -1,0 +1,105 @@
+OVDF v1.1
+GlobalTimer, Assembly-CSharp
+MetaGuid:7b13f74dd4baebc41ab39e61e17f880b
+
+# $QBRUXcLXeBMus7FYu1jXAM
+Position: $root:11
++ [Sirenix.OdinInspector.ColumnGroupAttribute]
+
+# $AebdnSzxUbKXfhMaCzFpVt
+Position: $QBRUXcLXeBMus7FYu1jXAM:0
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+	Size = 45 %
+
+# $6BKnfJKv6Rs5soHzUNSCsT
+Position: $QBRUXcLXeBMus7FYu1jXAM:1
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+	Size = 45 %
+
+# $Bj6m2tbPp8RFg43pZJzuTN
+Position: $root:12
++ [Sirenix.OdinInspector.ColumnGroupAttribute]
+
+# $P6UkLoUgchGFxM1HkkPxNU
+Position: $Bj6m2tbPp8RFg43pZJzuTN:0
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+
+# $LSRfjaSrNdhjSX1bLegRN7
+Position: $Bj6m2tbPp8RFg43pZJzuTN:1
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+
+# $3jYo3Hucz2zeZBFf5WCLYo
+Position: $QBRUXcLXeBMus7FYu1jXAM:2
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+	Size = 10 %
+
+# <GlobalTime>k__BackingField
+Visibility: Shown
++ [UnityEngine.RangeAttribute]
+	max = 86399
++ [Sirenix.OdinInspector.InlineButtonAttribute]
+	Action = "UpdateToRealTime"
+	Label = "设为当前"
+	Icon = ClockHistory
+
+# Hours
+Visibility: Shown
++ [UnityEngine.RangeAttribute]
+	max = 23
+
+# Minutes
+Visibility: Shown
++ [UnityEngine.RangeAttribute]
+	max = 59
+
+# Seconds
+Visibility: Shown
++ [UnityEngine.RangeAttribute]
+	max = 59
+
+# SetGlobalTime(int, int, int)
+Position: $AebdnSzxUbKXfhMaCzFpVt:0
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+	Style = Box
+	Name = "设置时间"
+
+# SetGlobalTime(float)
+Position: $6BKnfJKv6Rs5soHzUNSCsT:0
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+	Name = "设置时间"
+	Style = Box
+
+# ResumeGlobalTime()
+Position: $LSRfjaSrNdhjSX1bLegRN7:0
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+	Name = "恢复"
+	Icon = CaretRightSquare
+
+# PauseGlobalTime()
+Position: $P6UkLoUgchGFxM1HkkPxNU:0
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+	Name = "暂停"
+	Icon = Pause
+
+# ResetGlobalTime()
+Position: $3jYo3Hucz2zeZBFf5WCLYo:0
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+	Name = "重置"
+	Style = Box
+
+# GetFormattedTime()
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+	Expanded = True
+	Style = Box
++ [UnityEngine.SpaceAttribute]
+	height = 20
+
+# RealTime
+Position: $root:0
+Visibility: Shown

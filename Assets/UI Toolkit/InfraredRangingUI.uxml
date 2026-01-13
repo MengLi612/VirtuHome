@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Unity.AppUI.UI.Panel data-source-type="UIModel.InfraredRangingUIModel, Assembly-CSharp">
+        <Unity.AppUI.UI.Text text="&#24403;&#21069;&#29366;&#24577;" style="font-size: 1px; -unity-text-align: middle-left;">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="CurrentState" binding-mode="ToTarget"/>
+            </Bindings>
+        </Unity.AppUI.UI.Text>
+    </Unity.AppUI.UI.Panel>
+</ui:UXML>

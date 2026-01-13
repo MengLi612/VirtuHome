@@ -1,0 +1,45 @@
+OVDF v1.1
+Core.IOTEquipmentEntity, Assembly-CSharp
+MetaGuid:ebbfa43c7a3f4ed458a9199502fea18f
+
+# $SE6tP54QmyCYweRm8GJBqV
+Position: $A8bT1nwBsQfencK8FXS1Y:1
++ [Sirenix.OdinInspector.TabGroupAttribute+TabSubGroupAttribute]
+	GroupName = "Equipment"
+
+# $DfHemS2o435K82ZjojgX8B
+Position: $SE6tP54QmyCYweRm8GJBqV:4
++ [Sirenix.OdinInspector.ColumnGroupAttribute]
+
+# $Katsykatg7enT5K4wFWB6F
+Position: $DfHemS2o435K82ZjojgX8B:0
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+
+# $C77Jno9tfWxrJnfki62mtN
+Position: $DfHemS2o435K82ZjojgX8B:1
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+
+# mcuDevice
+Position: $SE6tP54QmyCYweRm8GJBqV:1
+
+# iotDevices
+Position: $SE6tP54QmyCYweRm8GJBqV:2
++ [Sirenix.OdinInspector.ListDrawerSettingsAttribute]
+
+# iotDeviceFolder
+Position: $SE6tP54QmyCYweRm8GJBqV:0
+
+# CreateIOTDeviceFolder()
+Position: $SE6tP54QmyCYweRm8GJBqV:3
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+
+# AddMCU(string)
+Position: $Katsykatg7enT5K4wFWB6F:0
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+
+# AddIOTDevice(string, GameObject)
+Position: $C77Jno9tfWxrJnfki62mtN:0
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]

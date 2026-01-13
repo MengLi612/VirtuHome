@@ -1,0 +1,18 @@
+OVDF v1.1
+Core.MCUDevice, Assembly-CSharp
+MetaGuid:ad5b4fe429df96949bfa20670456c239
+
+# "_DefaultTabGroup/IOT Device"
+Position: "_DefaultTabGroup":1
+
+# "_DefaultTabGroup/MCU"
+Position: $Gr4NDWdJ3oYQvizr1EsWW2:2
+
+# "_DefaultTabGroup"
+- [Sirenix.OdinInspector.TabGroupAttribute]
+
+# $NGFYD52Yz3HHHvWdgGgLRo
+Position: $Gr4NDWdJ3oYQvizr1EsWW2:1
+
+# IOTDevices
+Position: "_DefaultTabGroup/MCU":0

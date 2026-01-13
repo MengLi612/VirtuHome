@@ -1,0 +1,57 @@
+OVDF v1.1
+LinkBehavior, Assembly-CSharp
+MetaGuid:8089c716e8efa2345957d7e65029bb31
+
+# $JjQ9d99iGsBhzAXt4CaSfC
+Position: $9Z2Xi9TQKMHVqbLoRRnPKY:0
++ [Sirenix.OdinInspector.ColumnGroupAttribute]
+
+# $FATBMRXJCDEd76ANAT6cA2
+Position: $JjQ9d99iGsBhzAXt4CaSfC:0
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+
+# $Byr8h7otPgWTZPW4EuiXFh
+Position: $JjQ9d99iGsBhzAXt4CaSfC:1
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+
+# $9Z2Xi9TQKMHVqbLoRRnPKY
+Position: $root:41
++ [Sirenix.OdinInspector.FoldoutGroupAttribute]
+	GroupName = "方法"
+
+# AddLink(GameObject)
+Position: $FATBMRXJCDEd76ANAT6cA2:0
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+	buttonHeight = 25
+	HasDefinedButtonHeight = True
+	Icon = BoxArrowInDownLeft
+	Style = FoldoutButton
+
+# <LinkedUnits>k__BackingField
++ [Sirenix.OdinInspector.ListDrawerSettingsAttribute]
+	HideAddButton = True
+	HideRemoveButton = True
+
+# RemoveLink(GameObject)
+Position: $Byr8h7otPgWTZPW4EuiXFh:0
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+	Icon = BoxArrowInDownLeft
+	buttonHeight = 25
+	HasDefinedButtonHeight = True
+	Style = FoldoutButton
+
+# DisableLink()
+Position: $9Z2Xi9TQKMHVqbLoRRnPKY:1
+Visibility: Shown
++ [Sirenix.OdinInspector.ButtonAttribute]
+	Icon = BoxArrowDown
+	buttonHeight = 25
+	HasDefinedButtonHeight = True
+	Style = FoldoutButton
+
+# State
+Position: $root:8
+Visibility: Shown
++ [Sirenix.OdinInspector.EnumToggleButtonsAttribute]

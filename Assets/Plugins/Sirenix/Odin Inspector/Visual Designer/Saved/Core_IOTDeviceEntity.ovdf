@@ -1,0 +1,20 @@
+OVDF v1.1
+Core.IOTDeviceEntity, Assembly-CSharp
+MetaGuid:10299b9f28fc6c848ab6a49683bc1b42
+
+# $NGFYD52Yz3HHHvWdgGgLRo
+Position: $Gr4NDWdJ3oYQvizr1EsWW2:1
++ [Sirenix.OdinInspector.TabGroupAttribute+TabSubGroupAttribute]
+	GroupName = "IOT Device"
+
+# <Features>k__BackingField
+Position: $NGFYD52Yz3HHHvWdgGgLRo:1
++ [Sirenix.OdinInspector.ListDrawerSettingsAttribute]
+	HideAddButton = True
+	HideRemoveButton = True
+
+# CurrentState
+Position: $NGFYD52Yz3HHHvWdgGgLRo:0
+Visibility: Shown
++ [Sirenix.OdinInspector.EnumToggleButtonsAttribute]
++ [Sirenix.OdinInspector.HideLabelAttribute]

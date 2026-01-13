@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Default Local Group
+  m_GUID: 890c66e6f01b14b49a2af4401c2221fe
+  m_SerializeEntries:
+  - m_GUID: 052faaac586de48259a63d0c4782560b
+    m_Address: Assets/InputSystem_Actions.inputactions
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 104babc2764f31f4c9ee18cfdde9fab0
+    m_Address: Assets/Scenes/SystemScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ddbb1bb391006641a3b478e0f472ee1
+    m_Address: "Assets/GameResources/Materials/\u7A97\u6237_\u6846.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ea027135dcae004fb0343cc3d12d314
+    m_Address: "Assets/GameResources/Materials/\u6728\u5236\u5730\u677F.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25edb7816188ebf45abab4bb0fc30b3b
+    m_Address: "Assets/GameResources/Materials/\u7A97\u6237_\u73BB\u7483.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e657ae2eefe1a64380d47ace3c57bad
+    m_Address: "Assets/GameResources/Materials/\u5947\u5149\u677F_\u8FB9.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30dabd9637ff6d146ae326c58591c5a2
+    m_Address: "Assets/GameResources/Materials/\u73A9\u5076\u82B1\u854A.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 317bb351bb0b32c47beaa2993fd63841
+    m_Address: Assets/Scenes/SystemScene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cc666cee8b8ba840a2bcf2d89b5105a
+    m_Address: "Assets/GameResources/Materials/\u5947\u5149\u677F_\u5185\u7EFF.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4864d5678a3516f4693c6341a3993e27
+    m_Address: Assets/Scenes/StartScene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 575cc17731611d04b87fdc84c6b69e00
+    m_Address: Assets/UI Toolkit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dbc5cb4adc12bb48a32e4fc7db11080
+    m_Address: "Assets/\u5C4F\u5E55\u6E32\u67D3\u5668\u7EB9\u7406.renderTexture"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    - Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64735db5a7afba149ba8ae0f653786d3
+    m_Address: Assets/GameResources/Materials/Glass.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 705ee933a84630d4183af5317dbb58a0
+    m_Address: "Assets/GameResources/Materials/\u88AB\u5B50.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7085c5184b73e4845bead84f1bc12e5c
+    m_Address: "Assets/GameResources/Model/\u5BA4\u5185\u6D4B\u8BD5\u5EFA\u6A21.blend"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 715ee60f158563342a2fece16ded88c6
+    m_Address: Assets/GameResources/Prefab/Devices/Infrared ranging sensor.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - IOT_device
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7655b24a190736e48968488d7d653f58
+    m_Address: "Assets/GameResources/Materials/\u5899.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9447644db35012f40b93c3f160368143
+    m_Address: "Assets/GameResources/Materials/\u73A9\u5076\u82B1\u74E3_\u9ED1.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95713f5770ceceb4a8b966bd0d0fbdd9
+    m_Address: "Assets/GameResources/Materials/\u5E8A.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99c9720ab356a0642a771bea13969a05
+    m_Address: Assets/Scenes/SampleScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2060fac1ddaa364698bdeb88c366eb8
+    m_Address: Assets/GameResources/Materials/Matte.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b005e4e6efb2bf64c9912f9cbd19f280
+    m_Address: Assets/GameResources/Shader/Matte.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf448b6b5fae3df4e93d3f0418e5bb06
+    m_Address: Assets/GameResources/Config/InfraredSensorConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9157efd5c167cc429d266be76d5e0b1
+    m_Address: Assets/GameResources/Shader/Glass.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbc13d198717c57478e22cdda3c795c4
+    m_Address: "Assets/GameResources/Materials/\u5947\u5149\u677F_\u5185\u767D.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdb13693ab40df74180448edfd21095a
+    m_Address: Assets/Scenes/SampleScene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf7178d8e14281b43b1d0a360f1cf36e
+    m_Address: "Assets/GameResources/Materials/\u5C4F\u5E55.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d079dd45a95d6c14eb3cb24e6419f134
+    m_Address: "Assets/GameResources/Materials/\u73A9\u5076\u82B1\u74E3_\u7070.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd2f1ce2b20a5634fb4a516b9ca352a4
+    m_Address: "Assets/GameResources/Materials/\u9F20\u6807\u57AB_\u5185.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e44c04bd1bd545544b8742f500106d68
+    m_Address: "Assets/GameResources/Materials/\u9F20\u6807\u57AB_\u8FB9.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0efbbea8c7016d43a5883bed3444e0a
+    m_Address: "Assets/GameResources/Materials/\u7535\u89C6.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1f38235a226f494db3b9c3f8d28b1c3
+    m_Address: Assets/GameResources/Prefab/Devices/Timer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - IOT_device
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f23b4b5c65da94c44a5592338c538b7a
+    m_Address: "Assets/GameResources/Materials/\u6795\u5934.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f879eb46ada66c249a65a99b9ea7afbd
+    m_Address: Assets/GameResources/Prefab/Devices/MCU Devices.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - IOT_device
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffadacd3049cefb4685e7ef9e55661c0
+    m_Address: "Assets/GameResources/Materials/\u88AB\u5B50_\u5185.mat"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Materials
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2355112e2f9b9b5449b225bccbe775e8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8a5f28ec5810bd549aa98c813a52ac36, type: 2}
+    - {fileID: 11400000, guid: 1133bd3eee19af94aad9ddab09242fb5, type: 2}

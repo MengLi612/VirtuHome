@@ -1,0 +1,23 @@
+OVDF v1.1
+Movement, Assembly-CSharp
+MetaGuid:59be088114b409f43b3240821e60a098
+
+# <Speed>k__BackingField
++ [Sirenix.OdinInspector.UnitAttribute]
+	Base = Meter
+	Display = Centimeter
+
+# <UseRigidbody>k__BackingField
+Position: $root:10
+
+# _trans
++ [Sirenix.OdinInspector.HideIfAttribute]
+	Condition = "UseRigidbody"
+
+# _rigidbody
++ [Sirenix.OdinInspector.ShowIfAttribute]
+	Condition = "UseRigidbody"
+
+# Dir
+Position: $root:6
+Visibility: Shown

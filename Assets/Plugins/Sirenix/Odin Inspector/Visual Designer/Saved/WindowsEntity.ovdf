@@ -1,0 +1,17 @@
+OVDF v1.1
+WindowsEntity, Assembly-CSharp
+MetaGuid:bf3a0eadeeb76e642950b496a312a3e4
+
+# $36YbuEG6EEKQon2uL5TeP2
+Position: $A8bT1nwBsQfencK8FXS1Y:2
++ [Sirenix.OdinInspector.TabGroupAttribute+TabSubGroupAttribute]
+	GroupName = "Windows"
+
+# $A8bT1nwBsQfencK8FXS1Y
+Position: $root:4
+
+# windowObject
+Position: $36YbuEG6EEKQon2uL5TeP2:0
+
+# windowEdge
+Position: $36YbuEG6EEKQon2uL5TeP2:1

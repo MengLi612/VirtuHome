@@ -1,0 +1,17 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="RoolPanel" data-source-type="UIModel.ScreenUIModel, Assembly-CSharp" style="flex-grow: 1; flex-direction: column; align-items: flex-end;">
+        <ui:Label text="00:00:00" double-click-selects-word="false" triple-click-selects-line="false" name="ClockLabel" style="width: 27%; height: 10%; font-size: 100%; -unity-text-align: middle-center; -unity-font-style: bold; color: rgb(255, 149, 12); -unity-text-generator: standard; -unity-text-auto-size: none; margin-bottom: 4px; margin-left: 4px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="ClockFormattedText" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Label>
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row-reverse; width: 100%;">
+            <ui:VisualElement name="Spacer" style="flex-grow: 0; width: 10%;"/>
+            <ui:SliderInt label="ClockSlider" value="80000" high-value="86399" direction="Vertical" name="ClockSliderInt" show-input-field="true" inverted="true" style="height: 60%; margin-top: 6%; margin-bottom: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-right: 0; margin-left: 0; width: 40px;">
+                <Bindings>
+                    <ui:DataBinding property="value" data-source-path="ClockValue" binding-mode="TwoWay"/>
+                </Bindings>
+            </ui:SliderInt>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
